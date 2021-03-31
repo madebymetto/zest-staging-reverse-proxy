@@ -5,5 +5,4 @@ Quick way to set up a reverse proxy using Nginx and render.com.
 
 
 ## Environment Variables
-- `SERVER_NAME` -- the host you want to receive requests on
 - `PROXY_PASS` -- the host you want to forward request to
