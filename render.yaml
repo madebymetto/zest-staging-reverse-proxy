@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: meili
+  name: nginx-reverse-proxy
   env: docker
   repo: https://github.com/Amrit0991/nginx-reverse-proxy-docker
   plan: standard
