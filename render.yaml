@@ -4,6 +4,6 @@ services:
   env: docker
   repo: https://github.com/Amrit0991/nginx-reverse-proxy-docker
   plan: standard
-  healthCheckPath: /
+  healthCheckPath: /heartbeat
   - key: PROXY_PASS
     value: https://metto.studio
