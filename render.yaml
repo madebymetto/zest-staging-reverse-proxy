@@ -1,0 +1,12 @@
+services:
+- type: web
+  name: meili
+  env: docker
+  repo: https://github.com/Amrit0991/nginx-reverse-proxy-docker
+  plan: standard
+  healthCheckPath: /
+  envVars:
+  - key: SERVER_NAME
+    value: metto.co
+  - key: PROXY_PASS
+    value: https://metto.studio
